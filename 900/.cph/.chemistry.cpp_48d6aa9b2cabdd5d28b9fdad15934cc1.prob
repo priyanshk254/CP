@@ -1,0 +1,1 @@
+{"name":"Local: chemistry","url":"c:\\CP\\900\\chemistry.cpp","tests":[{"id":1765611734659,"input":"1\n8 0\nttttaaaa","output":"YES"},{"id":1765612106034,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\CP\\900\\chemistry.cpp","group":"local","local":true}
