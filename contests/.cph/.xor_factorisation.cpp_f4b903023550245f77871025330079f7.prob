@@ -1,0 +1,1 @@
+{"name":"Local: xor_factorisation","url":"c:\\CP\\contests\\xor_factorisation.cpp","tests":[{"id":1766158965487,"input":"4\n5 4\n4 3\n8 2\n1 1","output":"0 5 5 5\n4 4 4\n0 8\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\CP\\contests\\xor_factorisation.cpp","group":"local","local":true}
