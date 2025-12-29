@@ -7,24 +7,21 @@ int main()
     cin >> t;
     while (t--)
     {
-        long long n, x;
-        cin >> n >> x;
-        vector<long long> a(n);
-        long long min = 0, max = 0;
-        for (int i = 0; i < n; i++)
-            cin >> a[i];
+        long long n, k;
+        cin >> n >> k;
+        vector<long long> v(n * k);
+        for (int i = 0; i < n * k; i++)
+            cin >> v[i];
 
-        for (int i = 0; i < n; i++)
+        long long pointer = n * k;
+
+        long long sum = 0;
+        while (k--)
         {
-
-            max += ceil(a[i] * 1.0 / x);
-
-            min += a[i];
+            pointer -= (n / 2 + 1);
+            sum += v[pointer];
         }
-
-        min = ceil(min * 1.0 / x);
-
-        cout << min << " " << max << endl;
+        cout << sum << endl;
     }
     return 0;
 }
