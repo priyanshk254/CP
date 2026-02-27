@@ -1,0 +1,1 @@
+{"name":"Local: deletion_sort","url":"c:\\CP\\contests\\deletion_sort.cpp","tests":[{"id":1772204246349,"input":"3\n4\n1 4 2 3\n1\n100\n2\n6 7","output":"1\n1\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\CP\\contests\\deletion_sort.cpp","group":"local","local":true}
